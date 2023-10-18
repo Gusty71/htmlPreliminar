@@ -9,12 +9,7 @@
   background-color: rgb(255, 255, 255);
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
-  grid-template-rows: repeat(36, 1fr);
-}
-
-.item {
-  background-color: #D5FFD0;
-  text-align: center;
+  grid-template-rows: repeat(72, 2%);
 }
 
 .header {
@@ -44,8 +39,8 @@
 }
 
 .footer {
-  grid-row-start: 33;
-  grid-row-end: 37;
+  grid-row-start: 70;
+  grid-row-end: 72;
   grid-column-start: 1;
   grid-column-end: 7;
 }
@@ -59,8 +54,44 @@
   text-align: center;
   margin-right: 3%;
 }
-/*CARROUSEL*/
 
+/*Navbar con flex*/
+.contenedorflex {
+  background-color:#0C356A;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.flexitem {
+  background-color: #279EFF;
+  width: 150px;
+  height: 80px;
+  margin-right: 3%;
+  padding: 10px;
+  justify-items: center;
+  text-align: center;
+  border-radius: 4%;
+}
+/*Efecto barra de navegación*/
+.cambiocolorletra{
+  color: rgb(0, 0, 0);
+}
+
+.cambiocolorletra:hover {
+  color: rgb(0, 0, 0);
+}
+
+.flexitem:hover {
+  background-color: #D5FFD0;
+}
+
+/*CARROUSEL*/
 .carrousel-box{
   display: flex;
   width: 100%;
@@ -72,6 +103,7 @@ h2{
   font-family:'Quicksand', sans-serif !important;
   font-size: 12rem !important;
   color: #f3f3f3!important;
+  opacity: 50%;
 }
 
 .slider-frame{
@@ -124,44 +156,6 @@ h2{
 }
 
 
-
-/*Efecto barra de navegación*/
-.cambiocolorletra{
-  color: rgb(0, 0, 0);
-}
-
-.cambiocolorletra:hover {
-  color: rgb(0, 0, 0);
-}
-
-.flexitem:hover {
-  background-color: #D5FFD0;
-}
-
-/*Navbar con flex*/
-.contenedorflex {
-  background-color:#0C356A;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
-  align-items: center;
-  width: 100%;
-}
-
-.flexitem {
-  background-color: #279EFF;
-  width: 150px;
-  height: 80px;
-  margin: 3%;
-  padding: 15px;
-  justify-items: center;
-  text-align: center;
-  border-radius: 4%;
-  
-}
 
 .flexbienvenida {
   display: flex;
