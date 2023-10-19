@@ -21,7 +21,7 @@
 .gridmain {
   background-color: #279EFF;
   grid-row-start: 3;
-  grid-row-end: 35;
+  grid-row-end: 50;
   grid-column-start: 1;
   grid-column-end: 7;
 }
@@ -38,33 +38,35 @@
 .contenedorflex {
   background-color:#0C356A;
   display: flex;
+  flex-wrap: nowrap;
   flex-direction: row;
+  justify-content: space-around;
 }
 .navitem {
   background-color: #279EFF;
   width: 100%;
-  margin-right: 2%;
-  margin-left: 2%;
-  margin-bottom: 40%;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-bottom: 65%;
   margin-top: 1%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-bottom: 1.5%;
+  padding-top: 1.5%;
   border-radius: 2%;
 }
-.navbar .navitem {
+.navitem {
   font-size: 20px;
   color: #ffffff;
   text-align: center;
 }
 /*Efecto barra de navegación*/
 .cambiocolorletra{
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 .cambiocolorletra:hover {
   color: rgb(0, 0, 0);
 }
 .hover:hover {
-  background-color: #D5FFD0;
+  background-color: #9dbbe2;
 }
 /*CARROUSEL*/
 .carrousel-box{
@@ -123,51 +125,23 @@ h2{
   color: #D5FFD0!important;
 }
 /*MAIN CON INFORMACIÓN*/
-.flexbienvenida {
-  display: flex;
+.flex-iconos{
+  display:flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  padding-top: 2%;
-}
-/*MAIN*/
-.bienvenido {
-  font-size: 4em;
-  color: beige;
-}
-.tarjetabienvenidaflex {
-  background-color: beige;
-  width: 50%;
-  margin: 5%;
-  padding: 2%;
-  border-radius: 5%;
-}
-.parrafobienvenida {
-  line-height: 30px;
-  color: black;
-}
-.tarjetacompromiso{
-  background-color: beige;
-  width: 70%;
-  margin: 10%;
-  padding: 2%;
-  border-radius: 5%;
-  line-height: 30px;
-}
-.tarjetafoto{
-background-color: beige;
-margin: auto;
-width: 50%;
-padding: 2%;
-border-radius: 100%;
-}
-.finalbienvenida{
-  background-color: beige;
-  width: 1000px;
-  margin: 10%;
-  height: auto;
-  border-radius: 5%;
-}
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: aquamarine;
+  height: 30vw;
+  margin: 0 7% 0;
+  border-radius: 10px;
+  }
+  .tarjeta-icono p{
+      float: right;
+      margin: 30px 7px 0 15px;
+  }
+  img{
+      width: 100px;    
+  }
 h2{
   color: rgb(0, 0, 0);
   text-align: center;
@@ -180,6 +154,7 @@ h2{
 footer > h3{
 padding: 2%;
 }
+
 .infofooter{
 padding: 20px;
 text-align: center;
