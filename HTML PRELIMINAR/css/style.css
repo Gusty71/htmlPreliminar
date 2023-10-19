@@ -20,7 +20,7 @@
 }
 .gridmain {
   background-color: #279EFF;
-  grid-row-start: 3;
+  grid-row-start: 4;
   grid-row-end: 50;
   grid-column-start: 1;
   grid-column-end: 7;
@@ -41,14 +41,16 @@
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-around;
+  max-height: min-content;
 }
 .navitem {
   background-color: #279EFF;
   width: 100%;
+  height: min-content;
   margin-right: 1%;
   margin-left: 1%;
-  margin-bottom: 65%;
-  margin-top: 1%;
+  margin-top: 0.5%;
+  margin-bottom: 1%;
   padding-bottom: 1.5%;
   padding-top: 1.5%;
   border-radius: 2%;
@@ -135,11 +137,11 @@ h2{
   margin: 0 7% 0;
   border-radius: 10px;
   }
-  .tarjeta-icono p{
+.tarjeta-icono p{
       float: right;
       margin: 30px 7px 0 15px;
   }
-  img{
+img{
       width: 100px;    
   }
 h2{
