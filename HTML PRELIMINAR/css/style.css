@@ -9,7 +9,7 @@
   background-color: rgb(255, 255, 255);
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
-  grid-template-rows: repeat(50, 2%);
+  grid-template-rows: repeat(70, 2%);
 }
 .header {
   grid-row-start: 1;
@@ -19,15 +19,15 @@
   font-family: 'Quicksand', sans-serif;
 }
 .gridmain {
-  background-color: #279EFF;
+  background-color: #ffffff;
   grid-row-start: 4;
-  grid-row-end: 50;
+  grid-row-end: 68;
   grid-column-start: 1;
   grid-column-end: 7;
 }
 .footer {
-  grid-row-start: 50;
-  grid-row-end: 55;
+  grid-row-start: 68;
+  grid-row-end: 70;
   grid-column-start: 1;
   grid-column-end: 7;
 }
