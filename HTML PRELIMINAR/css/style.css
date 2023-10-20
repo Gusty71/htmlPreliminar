@@ -3,31 +3,33 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Quicksand', sans-serif;
+  
 }
 /*Maquetado con grid*/
 .contenedor {
   background-color: rgb(255, 255, 255);
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
-  grid-template-rows: repeat(50, 2%);
+  grid-template-rows: repeat(70, 2%);
+  background-color:#D5FFD0;
 }
 .header {
   grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-end: 4;
   grid-column-start: 1;
   grid-column-end: 7;
   font-family: 'Quicksand', sans-serif;
 }
 .gridmain {
-  background-color: #279EFF;
-  grid-row-start: 3;
-  grid-row-end: 35;
+  background-color: #ffffff;
+  grid-row-start:4;
+  grid-row-end: 68;
   grid-column-start: 1;
   grid-column-end: 7;
 }
 .footer {
-  grid-row-start: 50;
-  grid-row-end: 55;
+  grid-row-start: 68;
+  grid-row-end: 70;
   grid-column-start: 1;
   grid-column-end: 7;
 }
@@ -38,33 +40,35 @@
 .contenedorflex {
   background-color:#0C356A;
   display: flex;
+  flex-wrap: nowrap;
   flex-direction: row;
+  justify-content: space-around;
+  max-height: min-content;
 }
 .navitem {
   background-color: #279EFF;
   width: 100%;
-  margin-right: 2%;
-  margin-left: 2%;
-  margin-bottom: 40%;
+  height: min-content;
+  margin-right: 1%;
+  margin-left: 1%;
   margin-top: 1%;
-  padding-top: 2%;
+  margin-bottom: 2%;
   padding-bottom: 2%;
+  padding-top: 1.5%;
   border-radius: 2%;
-}
-.navbar .navitem {
   font-size: 20px;
   color: #ffffff;
   text-align: center;
 }
 /*Efecto barra de navegación*/
 .cambiocolorletra{
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 .cambiocolorletra:hover {
   color: rgb(0, 0, 0);
 }
 .hover:hover {
-  background-color: #D5FFD0;
+  background-color: #9dbbe2;
 }
 /*CARROUSEL*/
 .carrousel-box{
@@ -122,52 +126,27 @@ h2{
   font-size: 12rem !important;
   color: #D5FFD0!important;
 }
-/*MAIN CON INFORMACIÓN*/
-.flexbienvenida {
-  display: flex;
+/*MAIN CON INFORMACIÓN*//**/
+.flex-iconos{
+  display:flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  padding-top: 2%;
+  flex-wrap: wrap;
+  background-color: #9dbbe2;
+  height:fit-content;
+  border-radius: 10px;
+  margin: 2%;
 }
-/*MAIN*/
-.bienvenido {
-  font-size: 4em;
-  color: beige;
+.item-flex{
+  background-color: #279EFF;
 }
-.tarjetabienvenidaflex {
-  background-color: beige;
-  width: 50%;
-  margin: 5%;
-  padding: 2%;
-  border-radius: 5%;
+.item-flex p{
+  padding-left: 1%;
+  float: right;
 }
-.parrafobienvenida {
-  line-height: 30px;
-  color: black;
+.item-flex img{
+  width: 100px;
 }
-.tarjetacompromiso{
-  background-color: beige;
-  width: 70%;
-  margin: 10%;
-  padding: 2%;
-  border-radius: 5%;
-  line-height: 30px;
-}
-.tarjetafoto{
-background-color: beige;
-margin: auto;
-width: 50%;
-padding: 2%;
-border-radius: 100%;
-}
-.finalbienvenida{
-  background-color: beige;
-  width: 1000px;
-  margin: 10%;
-  height: auto;
-  border-radius: 5%;
-}
+
 h2{
   color: rgb(0, 0, 0);
   text-align: center;
@@ -180,6 +159,7 @@ h2{
 footer > h3{
 padding: 2%;
 }
+
 .infofooter{
 padding: 20px;
 text-align: center;
