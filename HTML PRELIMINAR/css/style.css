@@ -60,6 +60,12 @@
   color: #ffffff;
   text-align: center;
 }
+#logo{
+background-color: #0C356A;
+padding: 0%;
+margin-top: 0.5%;
+font-size: 30px;
+}
 /*Efecto barra de navegación*/
 .cambiocolorletra{
   color: #ffffff;
