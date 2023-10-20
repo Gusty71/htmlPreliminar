@@ -9,95 +9,89 @@
   background-color: rgb(255, 255, 255);
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
-  grid-template-rows: repeat(36, 1fr);
+  grid-template-rows: repeat(50, 2%);
 }
-
-.item {
-  background-color: #D5FFD0;
-  text-align: center;
-}
-
 .header {
   grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-end: 3;
   grid-column-start: 1;
   grid-column-end: 7;
-  border-top: solid 1px rgb(0, 0, 0);
-  border-bottom: solid 1px rgb(0, 0, 0);
   font-family: 'Quicksand', sans-serif;
-  place-items: center;
 }
-
 .gridmain {
   background-color: #279EFF;
-  grid-row-start: 2;
-  grid-row-end: 33;
+  grid-row-start: 3;
+  grid-row-end: 35;
   grid-column-start: 1;
   grid-column-end: 7;
-  border-radius: 2%;
 }
-
-.navbar {
+.footer {
+  grid-row-start: 50;
+  grid-row-end: 55;
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
+/*Navbar con flex*/
+.header a{
+  text-decoration: none !important;
+}
+.contenedorflex {
+  background-color:#0C356A;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
 }
-
-.footer {
-  grid-row-start: 33;
-  grid-row-end: 37;
-  grid-column-start: 1;
-  grid-column-end: 7;
+.navitem {
+  background-color: #279EFF;
+  width: 100%;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-bottom: 40%;
+  margin-top: 1%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 2%;
 }
-
 .navbar .navitem {
-  padding-left: 2%;
-  padding-top: 3%;
-  text-decoration: none;
-  font-size: large;
-  color: rgb(255, 253, 250);
+  font-size: 20px;
+  color: #ffffff;
   text-align: center;
-  margin-right: 3%;
+}
+/*Efecto barra de navegación*/
+.cambiocolorletra{
+  color: rgb(255, 255, 255);
+}
+.cambiocolorletra:hover {
+  color: rgb(0, 0, 0);
+}
+.hover:hover {
+  background-color: #D5FFD0;
 }
 /*CARROUSEL*/
-
 .carrousel-box{
   display: flex;
   width: 100%;
   background-color: rgb(255, 255, 255);
 }
-
-h2{
-  text-align: center; 
-  font-family:'Quicksand', sans-serif !important;
-  font-size: 12rem !important;
-  color: #f3f3f3!important;
-}
-
 .slider-frame{
   width: 1280px;
   height: auto;
   overflow: hidden; 
   width: 100vw;
 }
-
 .slider-frame ul{
   display: flex;
   padding: 0;
   width: 400%;
   animation: slide 16s infinite;
 }
-
 .slider-frame li{
   list-style: none;
   width: 100%;
 }
-
 .slider-frame img{
   position: relative;
   width: 100%;
 }
-
 @keyframes slide {
   0% {margin-left: 0%;}
   20% {margin-left: 0%;}
@@ -111,58 +105,24 @@ h2{
   75% {margin-left: -300%;}
   95% {margin-left: -300%;}
 }
-
-.texto{
-  text-align: center;
-  align-content: center;
+.textobox{
+    position: relative;
+    display: inline-block;
+    text-align: center;
 }
-
-.texto h2{
+.textoencima{
   position: absolute;
-  top: 63%;
-  left: 20%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-
-
-
-/*Efecto barra de navegación*/
-.cambiocolorletra{
-  color: rgb(0, 0, 0);
+h2{
+  text-align: center; 
+  font-family:'Quicksand', sans-serif !important;
+  font-size: 12rem !important;
+  color: #D5FFD0!important;
 }
-
-.cambiocolorletra:hover {
-  color: rgb(0, 0, 0);
-}
-
-.flexitem:hover {
-  background-color: #D5FFD0;
-}
-
-/*Navbar con flex*/
-.contenedorflex {
-  background-color:#0C356A;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
-  align-items: center;
-  width: 100%;
-}
-
-.flexitem {
-  background-color: #279EFF;
-  width: 150px;
-  height: 80px;
-  margin: 3%;
-  padding: 15px;
-  justify-items: center;
-  text-align: center;
-  border-radius: 4%;
-  
-}
-
+/*MAIN CON INFORMACIÓN*/
 .flexbienvenida {
   display: flex;
   flex-direction: row;
@@ -175,7 +135,6 @@ h2{
   font-size: 4em;
   color: beige;
 }
-
 .tarjetabienvenidaflex {
   background-color: beige;
   width: 50%;
@@ -183,12 +142,10 @@ h2{
   padding: 2%;
   border-radius: 5%;
 }
-
 .parrafobienvenida {
   line-height: 30px;
   color: black;
 }
-
 .tarjetacompromiso{
   background-color: beige;
   width: 70%;
@@ -204,7 +161,6 @@ width: 50%;
 padding: 2%;
 border-radius: 100%;
 }
-
 .finalbienvenida{
   background-color: beige;
   width: 1000px;
@@ -218,15 +174,12 @@ h2{
   font-size: 3em;
   padding: 2%;
 }
-
-#red{
+.red{
   width: 35px;
 }
-
 footer > h3{
 padding: 2%;
 }
-
 .infofooter{
 padding: 20px;
 text-align: center;
