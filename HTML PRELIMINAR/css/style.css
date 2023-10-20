@@ -10,7 +10,7 @@
   background-color: rgb(255, 255, 255);
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
-  grid-template-rows: repeat(70, 2%);
+  grid-template-rows: repeat(72, 2%);
   background-color:#ffffff;
 }
 .header {
@@ -22,14 +22,14 @@
 }
 .gridmain {
   background-color: #ffffff;
-  grid-row-start: 4;
+  grid-row-start: 3;
   grid-row-end: 68;
   grid-column-start: 1;
   grid-column-end: 7;
 }
 .footer {
   grid-row-start: 68;
-  grid-row-end: 70;
+  grid-row-end: 72;
   grid-column-start: 1;
   grid-column-end: 7;
 }
@@ -37,6 +37,7 @@
 .header a{
   text-decoration: none !important;
 }
+
 .contenedorflex {
   background-color:#0C356A;
   display: flex;
@@ -132,17 +133,16 @@ h2{
   flex-wrap: wrap;
   justify-content:space-evenly;
   width: 100%;
-  background-color:#9dbbe2;
-  
+  background-color:#9dbbe2; 
 }
-
 .flex-servicios{
   width: 30%;
-  margin-top: 6%;
+  margin-top: 5%;
+  position: sticky;
+  
 }
 .flex-servicios p{
   font-size: 4rem;
-  margin-top: 5%;
   color: #ffffff;
   text-shadow: 2px 1px 2px #279EFF;
 }
@@ -150,29 +150,63 @@ h2{
 .flex-iconos{
   background-color: #ffffff;
   width: 50%;
-  margin-top: 2%;
-  margin-left: 2%;
-  margin-bottom: 4%;
+  margin-top: 5%;
+  margin-right: 2%;
+  margin-bottom: 5%;
   border-radius: 2%;
-  box-shadow: 5px 10px 18px #888888;
-}
-.item-flex{
-  padding-right: 6%;
-  padding-left: 2%;
+  box-shadow: 5px 10px 18px #2b3c4c;;
   padding-top: 2%;
+  padding-bottom: 1%;
 }
+
 .item-flex p{
-  float: right;
-  margin-top: 3%;
+  text-align: center;
+  float:right;
   color: #2b3c4c;
   font-family: 'Outfit', sans-serif;
+  padding-right: 5%;
+  padding-top: 2%;
 }
-
 .item-flex img{
-  width: 100px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 90px;
+  margin-left: 4%;
+  margin-bottom: 2%;
+  border-bottom: 5px solid #9dbbe2;
 }
-
 /*fin main con información*/
+/*PARA SABER MÁS SOBRE NUESTROS CURSOS*/
+.accesocursos{
+  display: flex;
+  background-color: #279EFF;
+  width: 100%;
+  height: 12%;
+}
+.accesocursos p{
+  font-family: 'Outfit', sans-serif;
+  color: #0C356A;
+  background-color: #279EFF;
+  text-align: center;
+  width: 100%;
+  font-size: 5rem;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-shadow: 2px 1px 2px #9dbbe2;
+}
+.acacursos{
+  font-family: 'Outfit', sans-serif;
+  color: #0C356A;
+  text-decoration: none !important;
+  font-size: 5rem;
+  font-family: 'Outfit', sans-serif !important;
+}
+.acacursos:hover{
+  color: #ffffff !important;
+}
+.footer{
+  background-color: #0C356A;
+}
 h2{
   color: rgb(0, 0, 0);
   text-align: center;
