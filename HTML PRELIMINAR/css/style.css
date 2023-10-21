@@ -160,6 +160,7 @@ h2{
 .flex-historia{
   display: flex;
   flex-wrap: wrap;
+  margin-top: 1%;
 }
 .educacion{
   width: 30%;
@@ -181,7 +182,25 @@ h2{
 .parrafohistoria p{
   font-size: 25px;
 }
-
+.flex-foto{
+  display: flex;
+  flex-direction: row;
+}
+.flex-foto img{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.parrafo-docentes{
+  margin-left: 2%;
+  width: 40%;
+  justify-content: center;
+  margin-left:8%;
+  padding: 12% 0 12%;
+}
+.parrafo-docentes p{
+  font-size: 40px;
+  line-height: 120%;
+}
 /*fin main con información*/
 /*PARA SABER MÁS SOBRE NUESTROS CURSOS*/
 .accesocursos{
