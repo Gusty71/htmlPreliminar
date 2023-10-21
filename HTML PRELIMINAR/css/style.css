@@ -4,28 +4,6 @@
   box-sizing: border-box;
   font-family: 'Quicksand', sans-serif;
 }
-/*maquetado de sobrenosotros*/
-.headernosotros{
-  grid-row-start: 1;
-  grid-row-end: 25;
-  grid-column-start: 1;
-  grid-column-end: 7;
-  font-family: 'Quicksand', sans-serif;
-}
-.gridmainnosotros{
-  background-color: #dababa;
-  grid-row-start: 25;
-  grid-row-end: 270;
-  grid-column-start: 1;
-  grid-column-end: 7;
-  margin-top: 2%;
-}
-.footernosotros{
-  grid-row-start: 270;
-  grid-row-end: 300;
-  grid-column-start: 1;
-  grid-column-end: 7;
-}
 /*Navbar con flex*/
 .header a{
   text-decoration: none !important;
