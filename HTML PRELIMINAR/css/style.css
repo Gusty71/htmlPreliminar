@@ -147,6 +147,14 @@ h2{
   margin-bottom: 2%;
   border-bottom: 5px solid #9dbbe2;
 }
+.flex-main-nosotros{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.flex-main-nosotros img{
+  max-width: max-content;
+}
 /*fin main con información*/
 /*PARA SABER MÁS SOBRE NUESTROS CURSOS*/
 .accesocursos{
