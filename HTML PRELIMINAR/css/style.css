@@ -147,14 +147,41 @@ h2{
   margin-bottom: 2%;
   border-bottom: 5px solid #9dbbe2;
 }
-.flex-main-nosotros{
+.hovernosotros{
+  background-color: #ffffff;  
+  box-shadow: inset 0 0 0 0 #ffffff(255, 21, 0);
+ color: #0C356A;
+ transition: color .6s ease-in-out, box-shadow .3s ease-in-out;
+}
+.hovernosotros:hover{
+  color: #ffffff;
+ box-shadow: inset 100vw 0 0 0 #9dbbe2;
+}
+.flex-historia{
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
 }
-.flex-main-nosotros img{
-  max-width: max-content;
+.educacion{
+  width: 30%;
+  padding-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 2%;
 }
+.educacion h3{
+  font-size: 3rem;
+  font-family:'Quicksand', sans-serif !important;
+  line-height: 200%;
+}
+.parrafohistoria{
+  margin-top: 4%;
+  padding-left: 6%;
+  padding-top: 4%;
+}
+.parrafohistoria p{
+  font-size: 25px;
+}
+
 /*fin main con información*/
 /*PARA SABER MÁS SOBRE NUESTROS CURSOS*/
 .accesocursos{
