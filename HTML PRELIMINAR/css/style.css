@@ -15,17 +15,25 @@
 }
 .header {
   grid-row-start: 1;
-  grid-row-end: 4;
+  grid-row-end: 3;
   grid-column-start: 1;
   grid-column-end: 7;
   font-family: 'Quicksand', sans-serif;
 }
 .gridmain {
-  background-color: #ffffff;
+  background-color: #dababa;
   grid-row-start: 3;
   grid-row-end: 68;
   grid-column-start: 1;
   grid-column-end: 7;
+}
+.gridmainsobrenosotros{
+  background-color: #703f3f;
+  grid-row-start: 3;
+  grid-row-end: 68;
+  grid-column-start: 1;
+  grid-column-end: 7;
+
 }
 .footer {
   grid-row-start: 68;
@@ -144,8 +152,6 @@ h2{
 .flex-servicios{
   width: 30%;
   margin-top: 5%;
-  position: sticky;
-  
 }
 .flex-servicios p{
   font-size: 4rem;
@@ -210,34 +216,20 @@ h2{
 .acacursos:hover{
   color: #ffffff !important;
 }
+
+/*ATRIBUTOS DEL FOOTER*/
 .footer{
   background-color: #0C356A;
-}
-h2{
-  color: rgb(0, 0, 0);
-  text-align: center;
-  font-size: 3em;
-  padding: 2%;
 }
 .red{
   width: 35px;
 }
-footer > h3{
-padding: 2%;
+/*SOBRE NOSOTROS*/
+.nuestrahistoria{
+color: black !important;
 }
 
-.infofooter{
-padding: 20px;
-text-align: center;
-}
-
-section{
-  text-align: center;
-  width: 100%;
-  margin: 15px;
-  padding: 10px;
-  
-}
+/*FORMULARIO DE CONTACTO*/
 
 .row::after {
   content: "";
