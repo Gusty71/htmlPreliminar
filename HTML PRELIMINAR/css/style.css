@@ -151,16 +151,16 @@ h2{
 /*PARA SABER MÁS SOBRE NUESTROS CURSOS*/
 .accesocursos{
   display: flex;
+  flex-direction: row;
+  justify-content: center;
   background-color: #279EFF;
-  width: 100%;
-  height: 12%;
+  height: 25vw;
 }
 .accesocursos p{
   font-family: 'Outfit', sans-serif;
   color: #0C356A;
   background-color: #279EFF;
   text-align: center;
-  width: 100%;
   font-size: 5rem;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -179,10 +179,31 @@ h2{
 
 /*ATRIBUTOS DEL FOOTER*/
 .footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   background-color: #0C356A;
+  height: 20vw;
+  color: #ffffff;
+}
+.textoredes{
+align-self: center;
+margin-top: 1%;
+font-size: 1.5rem;
+}
+.redes{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
 }
 .red{
-  width: 35px;
+  width: 50px;
+}
+.domicilioycontacto{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 /*SOBRE NOSOTROS*/
 .nuestrahistoria{
