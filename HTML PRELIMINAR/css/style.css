@@ -32,9 +32,33 @@
   grid-column-start: 1;
   grid-column-end: 7;
 }
+/*maquetado de sobrenosotros*/
+.headernosotros{
+  grid-row-start: 1;
+  grid-row-end: 25;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  font-family: 'Quicksand', sans-serif;
+}
+.gridmainnosotros{
+  background-color: #dababa;
+  grid-row-start: 25;
+  grid-row-end: 270;
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
+.footernosotros{
+  grid-row-start: 270;
+  grid-row-end: 300;
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
 /*Navbar con flex*/
 .header a{
   text-decoration: none !important;
+}
+.headernosotros a{
+  text-decoration: none !important; 
 }
 .contenedorflex {
   background-color:#0C356A;
@@ -232,8 +256,6 @@ color: black !important;
   margin: 0;
   padding: 0;
 }
-
-
 .menu li {
   padding: 8px;
   margin-bottom: 7px;
