@@ -111,7 +111,7 @@ h2{
 }
 .flex-servicios{
   width: 30%;
-  margin-top: 5%;
+  margin-top: 8%;
 }
 .flex-servicios p{
   font-size: 4rem;
@@ -122,8 +122,8 @@ h2{
 .flex-iconos{
   background-color: #ffffff;
   width: 50%;
+  height: 80%;
   margin-top: 5%;
-  margin-right: 2%;
   margin-bottom: 5%;
   border-radius: 2%;
   box-shadow: 5px 10px 18px #2b3c4c;;
@@ -188,7 +188,7 @@ h2{
 }
 .textoredes{
 align-self: center;
-margin-top: 1%;
+margin-top: 0.5%;
 font-size: 1.5rem;
 }
 .redes{
@@ -204,6 +204,9 @@ justify-content: space-around;
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+.infofooter{
+  font-size: 20px;
 }
 /*SOBRE NOSOTROS*/
 .nuestrahistoria{
