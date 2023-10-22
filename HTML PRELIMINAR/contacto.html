@@ -27,71 +27,75 @@
                             <a class="cambiocolorletra" href="contacto.html">Contacto</a>
                         </div>
                     </div> 
-    </header>
-    <div class="container-fluid  mt-3">
-        <div class="row">
-            <!--               tablet   monitor  monitor-lg     -->
-            <div class="menu  col-sm-6 col-md-4 col-lg-3">
-                <h4>Visitanos en:</h4>
-                <ul>
-                    <li>Whatsapp</li>
-                    <li>Facebook</li>
-                    <li>Instagram</li>
-                </ul>
-            </div>
-            
-            <div class=" col-sm-6 col-md-4 col-lg-3">
-                <h1>Reseña</h1>
-                 <p>
-                    Al haber visitado Nuestra pagina podras ver sacar tus propia conclusion del 
-                    nivel de educación que brindamos; como asi tambien despues de realizar el test de nivel
-                    podras saber cual es el nivel de curso que mas te conviene empezar.
-                 </p>
-            </div>
-            
-            <div class=" col-sm-6 col-md-4 col-lg-3">
-                <h4>Esto Opinan nuestros alumnos</h4>
-                <p>
-                    "Es el mejor instituto en que pude haber cursado y los profesionales que los representan,
-                    lo hacen con gran vocacion." <br>
-                    G.N <br> <br>
 
-                    "Me costaba aprender ingles tenia muchas problemas de fonia, hasta que me entere del instituto
-                    y me anime a inscribirme. Hoy en dia pronuncio con total fluidez." <br>
-                    F.P
-                </p>
-            </div>
-            
-            <div class="right col-sm-6 col-md-12 col-lg-3  ">
+      <div class="container-fluid  mt-3">
+        
                 <div class="aside">
                     <h1>Registrate</h1>
-                    <form id="registartionForm">
-                        <div>
+                    <form><!--id="registartionForm"-->
+                        <div id="formu">
                             <label for="username">Nombre de Usuario: </label>
                             <input type="text" id="username" required>
                         </div><br>
-                        <div>
+                        <div  id="formu">
                             <label for="confirmPassword">Contraseña: </label>
                             <input type="password" id="confirmPassword" required>
                         </div><br>
-                        <div>
-                            <label for="whatsapp">Tu Whatsapp: </label>
-                            <input type="whatsapp">
+                        <div  id="formu">
+                            <label for="telefono">Telefono: </label>
+                            <input type="telefono">
                         </div><br>
-                        <div>
+                        <div  id="formu">
                             <label for="email">Email: </label>
                             <input type="text" id="email" required>
                         </div> <br>
-                        <div>
-                            <p>Dejanos tus comentarios que nos ayudaran a mejorar y crecer Mas.</p>
-                            <label for="comentario">Comentarios</label>
-                            <textarea id="comentario" rows="5"></textarea>
-                        </div>
-                        <button type="submit">Registrarse</button>
+                        <button id="but" type="submit">Registrarse</button>
                         
                     </form>
                     
                 </div>
+                <div class="row">
+                    <!--               tablet   monitor  monitor-lg     -->
+                       <h4>Visitanos en:</h4>
+                        <ul>  <div class="menu  col-sm-6 col-md-4 col-lg-3">
+                   
+                            <li>Whatsapp</li>
+                            <li>Facebook</li>
+                            <li>Instagram</li>
+                        </ul>
+                </div>
+                    
+            <section class="etiqueta">
+            <div class=" left col-sm-6 col-md-10 col-lg-8">
+                <h1>Reseña</h1>
+                 <p>
+                    Al haber visitado Nuestra pagina podras ver y sacar tus propia conclusion del 
+                    nivel de educación que brindamos; como asi tambien despues de realizar el test de 
+                    nivelación podras saber cual es el nivel de curso que mas te conviene empezar.
+                 </p>
+            </div>
+            </section>
+            <div class="contenedor">
+                <div class="col">
+                    <!-- 2 columnas dentro de un div -->
+                    <div>
+                        <h3>Esto Opinan nuestros alumnos</h3>
+                        <p>
+                            "Es el mejor instituto en que pude haber cursado y los profesionales que los representan,
+                            lo hacen con gran vocacion." <br>
+                            G.N <br> <br> </p>
+                    </div>
+                    <div class="col">
+                        <p>
+                            "Me costaba aprender ingles tenia muchas problemas de fonia, hasta que me entere del instituto
+                            y me anime a inscribirme. Hoy en dia pronuncio con total fluidez." <br>
+                            F.P
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </article>
+          
             </div>
         </div>
                 
@@ -109,14 +113,14 @@
         <hr>
             
             <h3>Nuestra Redes Sociales</h2>
-             <nav>
+             <div class="redes">
                  <a href="https://www.instagram.com">
-                 <img id="red" src="./imgs/instagram.png" alt=""></a>
+                 <img class="red" src="./imgs/instagram.png" alt=""></a>
                  <a href="https://www.facebook.com">
-                 <img id="red" src="./imgs/facebook.png" alt=""></a>
+                 <img class="red" src="./imgs/facebook.png" alt=""></a>
                  <a href="https://www.whatsapp.com">
-                 <img id="red" src="./imgs/whatsapp.png" alt=""></a>
-            </nav>
+                 <img class="red" src="./imgs/whatsapp.png" alt=""></a>
+                 </div>
              <p class="infofooter">Domicilio y contacto:
                  telefono: 11 2890-4550
                  Av. Saenz 420-
@@ -128,3 +132,4 @@
 </body>
 
 </html>
+   
