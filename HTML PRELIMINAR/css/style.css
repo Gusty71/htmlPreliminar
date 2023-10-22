@@ -94,6 +94,15 @@ font-size: 35px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.arriba{
+  text-align: end;
+  color: #0C356A;
+  transition: color .6s ease-in-out, box-shadow 1s ease-in-out;
+}
+.arriba:hover{
+  background-color: #279EFF;
+  box-shadow: inset 100vw 0 0 0 #0C356A;
+}
 h2{
   text-align: center; 
   font-family:'Quicksand', sans-serif !important;
@@ -195,15 +204,24 @@ h2{
   width: 40%;
   justify-content: center;
   margin-left:8%;
-  padding: 12% 0 12%;
+  padding: 7% 0 12%;
 }
 .parrafo-docentes p{
   font-size: 40px;
-  line-height: 120%;
+  line-height: 150%;
 }
-.fondocurso{
-  display: flex;
-  flex-direction: column;
+.flex-anclas{
+  padding: 2%;
+  font-size: 1.5rem;
+}
+.flex-anclas a{
+  text-decoration: none;
+  color: #ffffff;
+}
+li{
+  list-style: none !important;
+  text-align: center;
+  color: #2b3c4c;
 }
 .flex-curso{
  display: flex;
@@ -220,6 +238,7 @@ h2{
   box-shadow: 0px 2px 2px rgb(0, 0, 0.2);
   transition: all 0.25s;
   margin:5%;
+  border-radius: 6px;
 }
 .tarjeta-curso:hover{
   transform: translateY(-15px);
@@ -232,38 +251,25 @@ h2{
   color: #ffffff;
   text-shadow: 10px 5px 10px #0C356A;
 }
-.flex-anclas{
-  padding: 2%;
-  font-size: 1.5rem;
-}
-.flex-anclas a{
-  text-decoration: none;
-  color: #ffffff;
-}
-li{
-list-style: none !important;
-text-align: center;
-color: #2b3c4c;
-}
+
 .fondocurso{
   background-color: #9dbbe2;
 }
-.tarjeta-foto{
-padding-top: 2%; 
-}
-.tarjeta-curso img{
-  width: 420px;
+.tarjeta-foto img{
+  width: 10wh;
+  height: 50vh;
   border-radius: 6px;
+  padding-right: 1%;
 }
-.tarjeta-curso {
-padding: 1%;
+.tarjeta-infocurso{
+  background-color: #279EFF;
 }
 .tarjeta-infocurso p{
   font-size: 30px;
-  padding-left: 4%;
-  padding-top: 2%;
   color: #ffffff;
   font-family: 'Outfit', sans-serif;
+  padding-top: 1%;
+  padding-left: 2%;
 }
 /*fin main con información*/
 /*PARA SABER MÁS SOBRE NUESTROS CURSOS*/
@@ -272,7 +278,7 @@ padding: 1%;
   flex-direction: row;
   justify-content: center;
   background-color: #279EFF;
-  height: 100vw;
+  height: 60vh;
 }
 .accesocursos p{
   font-family: 'Outfit', sans-serif;
