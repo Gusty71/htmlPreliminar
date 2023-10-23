@@ -7,7 +7,11 @@
 @media screen and (max-width: 600px) {
   .contenedor-flex-navbar{
     flex-direction: column !important;
-    width: 100vw;
+    width: auto;
+    padding-bottom: 1%;
+  }
+  header{
+    position: static !important;
   }
   .nav-item{
     margin-left: 0% !important;
@@ -18,10 +22,21 @@
   .flex-servicios-home{
     width: 100% !important;
     text-align: center ;
+    font-size: 30% !important;
+    padding: 0px 4%;
   }
   .flex-iconos-home{
     width: 100% !important;
     border-radius: 0px !important;
+    padding-bottom: 9% !important;
+    padding-top: 2% !important;
+  }
+  .item-iconos-flex img{
+    padding: 0px;
+    margin: 4% 0px 0px;
+  }
+  .item-iconos-home p{
+  padding-bottom: 2%;
   }
   .acceso-cursos-home{
     height: 100% !important;
@@ -165,7 +180,7 @@ h2{
 }
 .flex-servicios-home{
   width: 30%;
-  margin-top: 8%;
+  margin: 8% 0px;
 }
 .flex-servicios-home p{
   font-size: 4rem;
@@ -188,13 +203,13 @@ h2{
   float:right;
   color: #2b3c4c;
   font-family: 'Outfit', sans-serif;
-  padding-right: 5%;
+  padding-right: 7%;
   padding-top: 2%;
 }
 .item-iconos-flex img{
   padding-top: 2%;
   padding-bottom: 2%;
-  width: 90px;
+  width: 18%;
   margin-left: 4%;
   margin-bottom: 2%;
   border-bottom: 5px solid #9dbbe2;
@@ -411,3 +426,4 @@ color: black !important;
 #imagen{
   width: 25%;
   position: inherit;
+}
