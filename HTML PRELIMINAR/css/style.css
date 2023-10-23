@@ -4,125 +4,7 @@
   box-sizing: border-box;
   font-family: 'Quicksand', sans-serif;
 }
-@media screen and (max-width: 600px) {
-  .contenedor-flex-navbar{
-    flex-direction: column !important;
-    width: auto;
-    padding-bottom: 1%;
-  }
-  header{
-    position: static !important;
-  }
-  .nav-item{
-    margin-left: 0% !important;
-  }
-  .textoencima h2{
-  font-size: 6rem !important;
-  }
-  .flex-servicios-home{
-    width: 100% !important;
-    text-align: center ;
-    font-size: 30% !important;
-    padding: 0px 4%;
-  }
-  .flex-iconos-home{
-    width: 100% !important;
-    border-radius: 0px !important;
-    padding-bottom: 9% !important;
-    padding-top: 2% !important;
-  }
-  .item-iconos-flex img{
-    padding: 0px;
-    margin: 4% 0px 0px;
-  }
-  .item-iconos-home p{
-  padding-bottom: 2%;
-  }
-  .acceso-cursos-home{
-    height: 100% !important;
-  }
-  .footer{
-  height: 100% !important;
-  padding: 4%;
-  }
-  .redes{
-    padding: 5%;
-  }
-  .domicilioycontacto p{
-    text-align: center;
-  }
-}
-@media only screen and (max-width: 1000px) {
-  .contenedor-flex-navbar{
-    flex-direction: column !important;
-    width: auto;
-    padding-bottom: 1%;
-  }
-  header{
-    position: static !important;
-  }
-  .nav-item{
-    margin-left: 0% !important;
-    padding-left: 1% !important;
-    padding-right: 1% !important;
-  }
-  .textoencima h2{
-    font-size: 7rem !important;
-  }
-  .flex-servicios-home{
-    width: 80% !important;
-    text-align: center ;
-    font-size: 30% !important;
-    padding: 0px 4%;
-  }
-  .flex-iconos-home{
-    width: 100% !important;
-    border-radius: 0px !important;
-    padding-bottom: 9% !important;
-    padding-top: 2% !important;
-  }
-  .item-iconos-flex img{
-    width: 20% !important;
-  }
-  .item-iconos-flex p{
-  padding-bottom: 5%;
-  font-size: 150%;
-  }
-  .acceso-cursos-home{
-    height: 100% !important;
-    font-size: 3rem !important;
-    padding: 0px 2% !important;
-  }
-  .footer{
-    height: 100% !important;
-    padding: 4%;
-    }
-    .redes{
-      padding: 5%;
-    }
-    .domicilioycontacto p{
-      text-align: center;
-    }
-}
-@media only screen and (max-width: 1210px) {
-  .flex-servicios-home{
-    width: 80% !important;
-    text-align: center ;
-    font-size: 30% !important;
-    padding: 0px 1%;
-  }
-  .flex-iconos-home{
-    width: 80% !important;
-    border-radius: 0px !important;
-    padding-bottom: 8% !important;
-    padding-top: 4% !important;
-  }
-  .acceso-cursos-home{
-    height: 100% !important;
-    font-size: 3rem !important;
-    padding: 0px 2% !important;
-  }
-}
+
 /*BARRA DE NAVEGACIÓN*/
 .header a{
   text-decoration: none !important;
@@ -497,4 +379,125 @@ color: black !important;
 #imagen{
   width: 25%;
   position: inherit;
+}
+/*MEDIAS QUERIES*/
+/*HOME*/
+@media screen and (max-width: 600px) {
+  .contenedor-flex-navbar{
+    flex-direction: column !important;
+    width: auto;
+    padding-bottom: 1%;
+  }
+  header{
+    position: static !important;
+  }
+  .nav-item{
+    margin-left: 0% !important;
+  }
+  .textoencima h2{
+  font-size: 6rem !important;
+  }
+  .flex-servicios-home{
+    width: 100% !important;
+    text-align: center ;
+    font-size: 30% !important;
+    padding: 0px 4%;
+  }
+  .flex-iconos-home{
+    width: 100% !important;
+    border-radius: 0px !important;
+    padding-bottom: 9% !important;
+    padding-top: 2% !important;
+  }
+  .item-iconos-flex img{
+    padding: 0px;
+    margin: 4% 0px 0px;
+  }
+  .item-iconos-home p{
+  padding-bottom: 2%;
+  }
+  .acceso-cursos-home{
+    height: 100% !important;
+  }
+  .footer{
+  height: 100% !important;
+  padding: 4%;
+  }
+  .redes{
+    padding: 5%;
+  }
+  .domicilioycontacto p{
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .contenedor-flex-navbar{
+    flex-direction: column !important;
+    width: auto;
+    padding-bottom: 1%;
+  }
+  header{
+    position: static !important;
+  }
+  .nav-item{
+    margin-left: 0% !important;
+    padding-left: 1% !important;
+    padding-right: 1% !important;
+  }
+  .textoencima h2{
+    font-size: 7rem !important;
+  }
+  .flex-servicios-home{
+    width: 80% !important;
+    text-align: center ;
+    font-size: 30% !important;
+    padding: 0px 4%;
+  }
+  .flex-iconos-home{
+    width: 100% !important;
+    border-radius: 0px !important;
+    padding-bottom: 9% !important;
+    padding-top: 2% !important;
+  }
+  .item-iconos-flex img{
+    width: 20% !important;
+  }
+  .item-iconos-flex p{
+  padding-bottom: 5%;
+  font-size: 150%;
+  }
+  .acceso-cursos-home{
+    height: 100% !important;
+    font-size: 3rem !important;
+    padding: 0px 2% !important;
+  }
+  .footer{
+    height: 100% !important;
+    padding: 4%;
+    }
+    .redes{
+      padding: 5%;
+    }
+    .domicilioycontacto p{
+      text-align: center;
+    }
+}
+@media only screen and (max-width: 1210px) {
+  .flex-servicios-home{
+    width: 80% !important;
+    text-align: center ;
+    font-size: 30% !important;
+    padding: 0px 1%;
+  }
+  .flex-iconos-home{
+    width: 80% !important;
+    border-radius: 0px !important;
+    padding-bottom: 8% !important;
+    padding-top: 4% !important;
+  }
+  .acceso-cursos-home{
+    height: 100% !important;
+    font-size: 3rem !important;
+    padding: 0px 2% !important;
+  }
 }
