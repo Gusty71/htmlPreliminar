@@ -6,7 +6,7 @@
 }
 
 /*BARRA DE NAVEGACIÓN*/
-.header a{
+header a{
   text-decoration: none !important;
 }
 header{
@@ -15,23 +15,23 @@ header{
   z-index: 1000;
 }
 .contenedor-flex-navbar {
-  background-color:#0C356A;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  background-color:#0C356A !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-around !important;
 }
 .nav-item {
   background-color: #279EFF;
-  width: 100%;
-  margin-right: 2%;
-  margin-left: 1%;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  padding: 2% 0 2%;
-  border-radius: 2%;
-  font-size: 150%;
+  width: 100%!important;
+  margin-right: 2%!important;
+  margin-left: 1%!important;
+  margin-top: 1%!important;
+  margin-bottom: 1%!important;
+  padding: 2% 0 2%!important;
+  border-radius: 2%!important;
+  font-size: 150%!important;
   color: #ffffff;
-  text-align: center;
+  text-align: center!important;
 }
 #logo{
 background-color: #0C356A;
@@ -303,7 +303,7 @@ li{
   padding-left: 2%;
 }
 /*ESTILOS DEL FOOTER*/
-.footer{
+footer{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -380,8 +380,10 @@ color: black !important;
   width: 25%;
   position: inherit;
 }
+
 /*MEDIAS QUERIES*/
 /*HOME*/
+
 @media screen and (max-width: 600px) {
   .contenedor-flex-navbar{
     flex-direction: column !important;
