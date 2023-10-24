@@ -37,8 +37,32 @@ let cadheader=`
     <a class="cambiocolorletra" href="cursos.html">Cursos</a>
 </div>
 <div class="flexmainhover nav-item">
-    <a class="cambiocolorletra" href="contacto.html">Contacto</a>
+    <a class="cambiocolorletra" href="contacto.html">Registro</a>
 </div>
 </div>
 `
 document.querySelector("header").innerHTML=cadheader
+
+const { createApp } = Vue
+
+  createApp({
+    data() {
+      return {
+            url:"https://randomuser.me/api/?results=6",
+            error:false,
+            datos:[]
+      }
+    },
+    methods:{
+        fetchData(url){
+            fetch(url) 
+                .then(response => response.json()) 
+                .then(data => {
+                    this.datos=data.results
+                });
+        }
+    },
+    created(){
+        this.fetchData( this.url)
+    }
+  }).mount('#app')
