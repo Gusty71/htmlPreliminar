@@ -89,7 +89,7 @@
                     </div>
                     <div class="item-iconos-flex">
                     <img src="./imgs/internet.png" alt="icono de certificado">
-                    <p class="tituloalineado">  <br>
+                    <p> <br>
                         Nuestras escuelas cuentan con salones de clase con los <br>  
                         equipos de alta tecnología, tales como iPads y <br>
                         tableros interactivos. Y si cursas virtual disfrutá de nuestro <br>
@@ -98,7 +98,7 @@
                     </div>
                     <div class="item-iconos-flex">
                     <img src="./imgs/pila-de-libros.png" alt="icono de certificado">
-                    <p class="tituloalineado"> 
+                    <p> <br>
                         Contamos con un reconocido programa de apoyo escolar <br> 
                         para todas las edades, donde ofrecemos asesoramiento,<br> 
                         preparación y clases focalizadas en exámenes <br> 
@@ -108,22 +108,39 @@
                     </div>
                 </div>
             </div>
-          
+            <div class="flex-profesores-home">
+            <p>NUESTRA COMUNIDAD CRECE DÍA A DÍA</p>
+            <p>¡SUMATE A LAS MEJORES CLASES <br>
+            CON LOS MEJORES PROFESORES!</p>
+            </div>
+            <div id="app" class="profesores">
+                <div class="flexapi" v-for="elemento in datos">
+                    <div class="fotoapi">
+                    <img :src="elemento.picture.large" :alt="elemento.name">
+                    </div>
+                    <div class="infoapi">
+                    <h1>{{elemento.name.first}} {{elemento.name.last}}</h1>
+                    <p>{{elemento.dob.age}} años</p>
+                    <p>{{elemento.location.city}} {{elemento.location.country}}</p>
+                    </div>
+                </div>  
+            </div>
             <div class="acceso-cursos-home">
                 <p>PARA SABER QUÉ CURSO SE ADAPTA A TUS NECESIDADES <br>
                 HACE CLICK <a class="acacursos" href="cursos.html">ACÁ</a></p>
             </div>   
             
-            <div class="flex-anclas anclaarriba">
+            <div class="flex-anclas anclaarribahome">
                 <a href="#volverarriba">Volver hacia arriba</a>
             </div>
-        </main>
         
+        </main>
         
             <footer>
 
             </footer>
-
+            
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
         <script src="./js/DOM.js"></script>
         <script src="./js/main.js"></script>
     </body>

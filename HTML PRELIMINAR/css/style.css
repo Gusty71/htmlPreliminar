@@ -6,6 +6,7 @@
 }
 
 /*BARRA DE NAVEGACIÓN*/
+
 header a{
   text-decoration: none !important;
 }
@@ -36,16 +37,18 @@ header{
 #logo{
 background-color: #0C356A;
 padding: 0% 0% !important;
-font-size: 30px !important;
+font-size: 35px !important;
 }
 .flex-anclas{
   padding: 2%;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
 }
 .flex-anclas a{
+  color: #ffffff;
   text-decoration: none;
-  color: #9dbbe2;
 }
+
 /*EFECTOS BARRA DE NAVEGACIÓN*/
 .cambiocolorletra{
   color: #ffffff;
@@ -56,14 +59,7 @@ font-size: 30px !important;
 .flexmainhover:hover {
   background-color: #9dbbe2;
 }
-.anclaarriba{
-  text-align: end;
-  transition: color .6s ease-in-out, box-shadow 1s ease-in-out;
-}
-.anclaarriba:hover{
-  background-color: #279EFF;
-  box-shadow: inset 100vw 0 0 0 #0C356A;
-}
+
 /*CARROUSEL*/
 .carrousel-box{
   display: flex;
@@ -117,7 +113,7 @@ font-size: 30px !important;
 h2{
   text-align: center; 
   font-family:'Quicksand', sans-serif !important;
-  font-size: 12rem !important;
+  font-size: 12rem ;
   color: #ffffff!important;
 }
 
@@ -166,12 +162,54 @@ h2{
   margin-bottom: 2%;
   border-bottom: 5px solid #9dbbe2;
 }
+.profesores{
+  background-color: #279EFF;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.flexapi{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #0C356A;
+  width: 40%;
+  height: 25vh;
+  margin: 3% 0% 3% 30.5%;
+  border-radius: 6px;
+}
+.fotoapi{
+  padding-top: 2%;
+  padding-left: 2%;
+  border-radius: 6px;
+}
+.infoapi{
+color: #ffffff;
+padding-top: 2%;
+padding-left: 3%;
+}
+.infoapi p{
+  padding-top: 4%;
+  padding-left: 2%;
+}
+.flex-profesores-home{
+background-color: #279EFF; 
+text-align: center; 
+padding-top: 2%; 
+}
+.flex-profesores-home p{
+  font-size: 3rem;
+  color: #0C356A;
+  font-weight: 600;
+  text-shadow: 2px 1px 2px #279EFF;
+  padding-left: 2%;
+  padding-top: 2%;
+  line-height: 120%;
+}
 .acceso-cursos-home{
   display: flex;
   flex-direction: row;
   justify-content: center;
   background-color: #279EFF;
-  height: 50vh;
 }
 .acceso-cursos-home p{
   font-family: 'Outfit', sans-serif;
@@ -179,9 +217,9 @@ h2{
   background-color: #279EFF;
   text-align: center;
   font-size: 4rem;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 1%;
   text-shadow: 2px 1px 2px #9dbbe2;
+  padding-bottom: 2%;
 }
 .acacursos{
   font-family: 'Outfit', sans-serif;
@@ -193,6 +231,33 @@ h2{
 .acacursos:hover{
   color: #ffffff !important;
 }
+.anclaarriba{
+  text-align: end;
+  transition: box-shadow 1s ease-in-out;
+}
+.anclaarriba:hover{
+  box-shadow: inset 100vw 0 0 0 #0C356A;
+}
+.anclaarriba a{
+  background-color: #0C356A;
+  color: #ffffff;
+  padding: 1%;
+  border-radius: 4px;
+}
+.anclaarribahome{
+  text-align: end;
+  transition: color .6s ease-in-out, box-shadow 1s ease-in-out;
+}
+.anclaarribahome:hover{
+  background-color: #279EFF;
+  box-shadow: inset 100vw 0 0 0 #0C356A;
+}
+.anclaarribahome a{
+  background-color: #0C356A;
+  color: #ffffff;
+  padding: 1%;
+  border-radius: 4px;
+}
 /*ESTILOS DE SOBRENOSTROS.HTML*/
 .flex-nosotros-historia{
   display: flex;
@@ -201,7 +266,7 @@ h2{
 }
 .educacion-nosotros{
   width: 30%;
-  padding-left: 2%;
+  padding-left: 1%;
   margin-top: 2%;
   margin-bottom: 2%;
   margin-left: 2%;
@@ -213,11 +278,24 @@ h2{
 }
 .parrafo-nosotros-historia{
   margin-top: 4%;
-  padding-left: 6%;
+  padding-left: 4%;
   padding-top: 4%;
 }
 .parrafo-nosotros-historia p{
-  font-size: 25px;
+  font-size:165%;
+  line-height: 280%;
+}
+.mayuscula{
+  font-size: 200%;
+}
+.hovernosotros{
+background-color: #ffffff;  
+ color: #0C356A;
+ transition: box-shadow 1s ease-in-out;
+}
+.hovernosotros:hover{
+  color: #0C356A;
+ box-shadow: inset 100vw 0 0 0 #9dbbe2;
 }
 .flex-nosotros-foto{
   display: flex;
@@ -238,24 +316,44 @@ h2{
   font-size: 40px;
   line-height: 150%;
 }
-.hovernosotros{
-background-color: #ffffff;  
- color: #0C356A;
- transition: box-shadow 1s ease-in-out;
+.flex-nosotros-compromiso{
+  display: flex;
+  flex-direction: column;
 }
-.hovernosotros:hover{
-  color: #0C356A;
- box-shadow: inset 100vw 0 0 0 #9dbbe2;
+.futuro{
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 2%;
+}
+.compromiso{
+  margin: 0% 4%;
+  font-size: 2rem;
+}
+.compromiso li{
+  padding-bottom: 2%;
+  justify-content: flex-start;
 }
 /*ESTILOS CURSOS.HTML*/
+.fondocurso{
+  background-color: #9dbbe2;
+}
 li{
   list-style: none !important;
   text-align: center;
   color: #2b3c4c;
 }
+.titulo-curso h3{
+  padding-top: 7%;
+  font-size: 2.8rem;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 10px 5px 10px #0C356A;
+  margin-top: 0px !important;
+}
 .flex-curso{
  display: flex;
  flex-direction: column; 
+ align-items: center;
 }
 .tarjeta-curso{
   display: flex;
@@ -264,7 +362,7 @@ li{
   background-color: #279EFF;
   width: 90vw;
   height: 50vh;
-  border-radius: 10px;
+  border-radius: 12px;
   box-shadow: 0px 2px 2px rgb(0, 0, 0.2);
   transition: all 0.25s;
   margin:5%;
@@ -274,17 +372,6 @@ li{
   transform: translateY(-15px);
   box-shadow: 0 12px 16px rgb(0, 0, 0.2);
 }
-.titulo-curso h3{
-  padding-top: 5%;
-  font-size: 2.5rem;
-  text-align: center;
-  color: #ffffff;
-  text-shadow: 10px 5px 10px #0C356A;
-}
-
-.fondocurso{
-  background-color: #9dbbe2;
-}
 .tarjeta-foto img{
   width: 10wh;
   height: 50vh;
@@ -293,13 +380,27 @@ li{
 }
 .tarjeta-infocurso{
   background-color: #279EFF;
+  border-radius: 6px;
 }
 .tarjeta-infocurso p{
   font-size: 30px;
   color: #ffffff;
   font-family: 'Outfit', sans-serif;
-  padding-top: 1%;
   padding-left: 2%;
+  text-align: center;
+}
+.tarjeta-infocurso h1{
+  text-align: center;
+  padding: 2%;
+}
+.tarjeta-infocurso a{
+  color: #ffffff;
+  font-family: 'Outfit', sans-serif;
+  font-size: 30px;
+}
+.azulcito:hover{
+  color:#0C356A;
+  text-decoration: none;
 }
 /*ESTILOS DEL FOOTER*/
 footer{
@@ -331,10 +432,6 @@ justify-content: space-around;
 }
 .infofooter{
   font-size: 20px;
-}
-/*SOBRE NOSOTROS*/
-.nuestrahistoria{
-color: black !important;
 }
 
 /*FORMULARIO DE CONTACTO*/
@@ -399,6 +496,17 @@ color: black !important;
 #imagen{
   width: 25%;
   position: inherit;
+} 
+h3{
+  text-align: center;
+  margin: 30px;
+ }
+ 
+div.col{
+  font-size: x-large;
+  padding: 10px;
+  border: 1px solid black;
+  background-color:  #279EFF;
 }
 
 /*MEDIAS QUERIES*/
@@ -417,7 +525,7 @@ color: black !important;
     margin-left: 0% !important;
   }
   .textoencima h2{
-  font-size: 6rem !important;
+  font-size: 2rem !important;
   }
   .flex-servicios-home{
     width: 100% !important;
@@ -430,9 +538,10 @@ color: black !important;
     border-radius: 0px !important;
     padding-bottom: 9% !important;
     padding-top: 2% !important;
+    padding-left: 4%;
   }
   .item-iconos-flex img{
-    padding: 0px;
+    width: 30%;
     margin: 4% 0px 0px;
   }
   .item-iconos-home p{
@@ -441,15 +550,29 @@ color: black !important;
   .acceso-cursos-home{
     height: 100% !important;
   }
-  .footer{
-  height: 100% !important;
-  padding: 4%;
+  .flexapi{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #0C356A;
+    width: 90%;
+    height: 25vh;
+    margin: 3% 0% 3% 4%;
+    border-radius: 6px;
   }
-  .redes{
-    padding: 5%;
+  .flex-profesores-home{
+  background-color: #279EFF; 
+  text-align: center; 
+  padding-top: 2%; 
   }
-  .domicilioycontacto p{
-    text-align: center;
+  .flex-profesores-home p{
+    font-size: 3rem;
+    color: #0C356A;
+    font-weight: 600;
+    text-shadow: 2px 1px 2px #279EFF;
+    padding-left: 2%;
+    padding-top: 2%;
+    line-height: 120%;
   }
 }
 @media only screen and (max-width: 1000px) {
@@ -493,16 +616,26 @@ color: black !important;
     font-size: 3rem !important;
     padding: 0px 2% !important;
   }
+  .flexapi{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #0C356A;
+    width: 90%;
+    height: 25vh;
+    margin: 3% 0% 3% 4%;
+    border-radius: 6px;
+  }
   .footer{
     height: 100% !important;
     padding: 4%;
-    }
-    .redes{
+  }
+  .redes{
       padding: 5%;
-    }
-    .domicilioycontacto p{
+  }
+  .domicilioycontacto p{
       text-align: center;
-    }
+  }
 }
 @media only screen and (max-width: 1210px) {
   .flex-servicios-home{
@@ -523,25 +656,207 @@ color: black !important;
     padding: 0px 2% !important;
   }
 }
- h3{
-  text-align: center;
-  margin: 30px;
- }
- 
-div.col{
-  font-size: x-large;
-  padding: 10px;
-  border: 1px solid black;
-  background-color:  #279EFF;
+/*SOBRENOSOTROS.HTML*/
+@media screen and (max-width: 600px){
+  .educacion-nosotros{
+    width: 100%;
+    padding-left: 2%;
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  .parrafo-nosotros-historia{
+    margin-top: 1% !important;
+    padding-left: 6%;
+    padding-top: 1% !important;
+    padding-bottom: 4%;
+  }
+  .flex-nosotros-foto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .flex-nosotros-foto img{
+    width: 100%;
+  } 
+  .parrafo-nosotros-docentes{
+    width: 100%;
+  }
+  .flex-nosotros-compromiso li{
+    padding-bottom: 8%;
+    padding-top: 8%;
+  }
+  .futuro{
+    padding-bottom: 4%;
+    font-size: 2.5rem;
+  }
+  footer{
+    height: max-content;
+  }
 }
+@media only screen and (max-width: 1000px) {
+  .educacion-nosotros{
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  .parrafo-nosotros-historia{
+    margin-top: 1% !important;
+    padding-left: 6%;
+    padding-top: 1% !important;
+    padding-bottom: 6%;
+  }
+  .flex-nosotros-foto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+  .flex-nosotros-foto img{
+    width: 100%;
+    margin-top: 2%;
+  } 
+  .parrafo-nosotros-docentes{
+    width: 100%;
+    margin-left: 3%;
+  }
+  .flex-nosotros-compromiso li{
+    padding-bottom: 6%;
+    padding-top: 6%;
+  }
+  footer{
+    height: max-content;
+    }
+}
+@media only screen and (max-width: 1260px){
+  .educacion-nosotros{
+    width: 100% !important;
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  .parrafo-nosotros-historia{
+    margin-top: 1% !important;
+    padding-left: 6%;
+    padding-top: 1% !important;
+    padding-bottom: 6%;
+  }
+  .flex-nosotros-foto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+  .flex-nosotros-foto{
+    width: 100% !important;
+    margin-top: 2%;
+  } 
+  .parrafo-nosotros-docentes{
+    width: 100%;
+    margin-left: 3%;
+  }
+  .flex-nosotros-compromiso li{
+    padding-bottom: 4%;
+    padding-top: 4%;
+  }
+  footer{
+    height: max-content;
+    }
+}
+/*CURSOS.HTML*/
+@media screen and (max-width: 600px){
+  .tarjeta-foto img{
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .tarjeta-infocurso h1{
+    font-size: 2rem;
+  }
+  .flex-anclas{
+    font-size: 1rem;
+  }
 
-
-
-
-
-
-
-
-
-
-
+}
+@media screen and (max-width: 1000px){
+  .flex-curso{
+    display: flex;
+    flex-direction: column; 
+   }
+   .tarjeta-curso{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     background-color: #279EFF;
+     height: auto;
+     border-radius: 12px;
+     box-shadow: 0px 2px 2px rgb(0, 0, 0.2);
+     transition: all 0.25s;
+     margin-top: 6%;
+     border-radius: 6px;
+   }
+   .tarjeta-curso:hover{
+     transform: translateY(-15px);
+     box-shadow: 0 12px 16px rgb(0, 0, 0.2);
+     overflow: visible !important;
+   }
+   .tarjeta-foto{
+    padding-top: 3%;
+   }
+   .tarjeta-foto img{
+     height: 30vh !important;
+     padding-right: 1%;
+     align-content: flex-start !important;
+     padding-top: 4%;
+   }
+   .tarjeta-infocurso{
+     background-color: #279EFF;
+     border-radius: 6px;
+     padding-bottom: 4%;
+   }
+   .tarjeta-infocurso p{
+     font-size: 25px;
+     color: #ffffff;
+     font-family: 'Outfit', sans-serif;
+     padding-top: 1%;
+     padding-left: 2%;
+     text-align: center;
+   }
+   .tarjeta-infocurso h1{
+    text-align: center;
+    padding:0px;
+    margin: 0px;
+    font-size: 2.5rem;
+   }
+   .flex-anclas{
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1360px){
+  .flex-curso{
+    display: flex;
+    flex-direction: column; 
+   }
+   .tarjeta-curso{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     background-color: #279EFF;
+     width: 80vw;
+     height: auto;
+     border-radius: 12px;
+     box-shadow: 0px 2px 2px rgb(0, 0, 0.2);
+     transition: all 0.25s;
+     margin-top: 6%;
+     border-radius: 6px;
+     padding-bottom: 2%;
+     padding-top: 2%;
+   }
+   .tarjeta-foto{
+    padding-top: 3%;
+   }
+   .tarjeta-foto img{
+     height: 50vh;
+     padding-right: 1%;
+     align-content: flex-start !important;
+}}
