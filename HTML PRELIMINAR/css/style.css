@@ -42,11 +42,13 @@ font-size: 35px !important;
 .flex-anclas{
   padding: 2%;
   font-size: 2rem;
+  text-align: center;
 }
 .flex-anclas a{
   color: #ffffff;
   text-decoration: none;
 }
+
 /*EFECTOS BARRA DE NAVEGACIÓN*/
 .cambiocolorletra{
   color: #ffffff;
@@ -111,7 +113,7 @@ font-size: 35px !important;
 h2{
   text-align: center; 
   font-family:'Quicksand', sans-serif !important;
-  font-size: 12rem !important;
+  font-size: 12rem ;
   color: #ffffff!important;
 }
 
@@ -385,6 +387,7 @@ li{
   color: #ffffff;
   font-family: 'Outfit', sans-serif;
   padding-left: 2%;
+  text-align: center;
 }
 .tarjeta-infocurso h1{
   text-align: center;
@@ -395,6 +398,9 @@ li{
   color: #ffffff;
   font-family: 'Outfit', sans-serif;
   font-size: 30px;
+}
+.azulcito:hover{
+  color:#0C356A;
 }
 /*ESTILOS DEL FOOTER*/
 footer{
@@ -519,7 +525,7 @@ div.col{
     margin-left: 0% !important;
   }
   .textoencima h2{
-  font-size: 6rem !important;
+  font-size: 2rem !important;
   }
   .flex-servicios-home{
     width: 100% !important;
@@ -764,6 +770,13 @@ div.col{
     padding-top: 2%;
     align-content: flex-start !important;
   }
+  .tarjeta-infocurso h1{
+    font-size: 2rem;
+  }
+  .flex-anclas{
+    font-size: 1rem;
+  }
+
 }
 @media screen and (max-width: 1000px){
   .flex-curso{
@@ -814,10 +827,13 @@ div.col{
     text-align: center;
     padding:0px;
     margin: 0px;
+    font-size: 2.5rem;
    }
-  
+   .flex-anclas{
+    font-size: 2rem;
+  }
 }
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1360px){
   .flex-curso{
     display: flex;
     flex-direction: column; 
@@ -835,11 +851,8 @@ div.col{
      transition: all 0.25s;
      margin-top: 6%;
      border-radius: 6px;
-   }
-   .tarjeta-curso:hover{
-     transform: translateY(-15px);
-     box-shadow: 0 12px 16px rgb(0, 0, 0.2);
-     overflow: visible !important;
+     padding-bottom: 2%;
+     padding-top: 2%;
    }
    .tarjeta-foto{
     padding-top: 3%;
@@ -848,35 +861,4 @@ div.col{
      height: 50vh;
      padding-right: 1%;
      align-content: flex-start !important;
-   }
-   .tarjeta-infocurso{
-     background-color: #279EFF;
-     border-radius: 6px;
-     padding-bottom: 4%;
-   }
-   .tarjeta-infocurso p{
-     font-size: 30px;
-     color: #ffffff;
-     font-family: 'Outfit', sans-serif;
-     padding-top: 1%;
-     padding-left: 2%;
-     text-align: center;
-   }
-   .tarjeta-infocurso h1{
-    text-align: center;
-    padding:0px;
-    margin: 0px;
-   }
-}
-
-
-
-
-
-
-
-
-
-
-
-
+}}
