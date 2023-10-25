@@ -465,6 +465,11 @@ justify-content: space-around;
   padding: 15px;
   color: #ffffff;
   text-align: center;
+  align-items: center;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   font-size: 14px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
@@ -480,6 +485,14 @@ justify-content: space-around;
   font-size: xx-large;
   font-style: italic;
 }
+
+#formu input{
+  width:25%;
+  height: 20px;
+  margin: none;
+  padding: 20px;
+}
+
 #but{
   text-align: center;
   width: 300px;
