@@ -26,23 +26,24 @@
                 <div class="aside">
                     <h1>Registrate</h1>
                     <form><!--id="registartionForm"-->
-                        <div id="formu">
-                            <label for="username">Nombre de Usuario: </label>
-                            <input type="text" id="username" required>
+                        <div class="formu">
+                            <label for="usuario">Nombre de Usuario: </label>
+                            <input type="text" name="usuario" id="usuario" value="">
                         </div><br>
-                        <div  id="formu">
+                        <div  class="formu">
                             <label for="confirmPassword">Contraseña: </label>
-                            <input type="password" id="confirmPassword" required>
+                            <input type="text" name="clave" id="clave" value="" >
                         </div><br>
-                        <div  id="formu">
+                        <div  class="formu">
                             <label for="telefono">Telefono: </label>
-                            <input type="telefono">
+                            <input type="text" name="telefono" id="telefono" value="" >
                         </div><br>
-                        <div  id="formu">
+                        <div  class="formu">
                             <label for="email">Email: </label>
-                            <input type="text" id="email" required>
+                            <input type="text" name="email" id="email" value="">
                         </div> <br>
-                        <button id="but" type="submit">Registrarse</button>
+                         <input type="submit" onsubmit="return enviarformulario();" value="Registrarse">
+                        
                         
                     </form>
                     
