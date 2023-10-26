@@ -1,6 +1,6 @@
 let cadfooter=`
     <div class="textoredes">
-    <h3>Nuestra Redes Sociales</h2></div>
+    <h3>Seguinos en nuestras redes sociales</h2></div>
                 <div class="redes">
                     <div><a href="https://www.instagram.com">
                         <img class="red" src="./imgs/instagram.png" alt=""></a>
@@ -12,6 +12,12 @@ let cadfooter=`
                         <img class="red" src="./imgs/whatsapp.png" alt=""></a>
                     </div>
                 </div>
+    <ul>
+    <li>Home</li>
+    <li>Sobre Nosotros</li>
+    <li></li>
+    <li></li>
+    </ul>
                 <div class="domicilioycontacto">
                     <p class="infofooter">
                         Domicilio y contacto:
