@@ -37,4 +37,4 @@ function sendForm(username, email, password, telefono) {
 
     //restablece el formulario
     document.getElementById("registrationForm").requestFullscreen();
-}
+}}
