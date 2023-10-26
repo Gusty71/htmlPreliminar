@@ -43,7 +43,7 @@ let cadheader=`
     <a class="cambiocolorletra" href="cursos.html">Cursos</a>
 </div>
 <div class="flexmainhover nav-item">
-    <a class="cambiocolorletra" href="contacto.html">Registro</a>
+    <a class="cambiocolorletra" href="registro.html">Registro</a>
 </div>
 </div>
 `
