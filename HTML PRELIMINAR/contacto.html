@@ -20,59 +20,30 @@
         <main>  
             
         <h1>Contacto</h1>
-            
-    
-
-        <div class="container-fluid  mt-3">
-        <div class="row">
-            <!--               tablet   monitor  monitor-lg     -->
-            <div class="menu  col-sm-6 col-md-4 col-lg-3">
-                <h4>Visitanos en:</h4>
-                <ul>
-                    <li>Whatsapp</li>
-                    <li>Facebook</li>
-                    <li>Instagram</li>
-                </ul>
-            </div>
-            
-            <div class=" col-sm-6 col-md-4 col-lg-3">
-                <h1>Reseña</h1>
-                 <p>
-                    Al haber visitado Nuestra pagina podras ver sacar tus propia conclusion del 
-                    nivel de educación que brindamos; como asi tambien despues de realizar el test de nivel
-                    podras saber cual es el nivel de curso que mas te conviene empezar.
-                 </p>
-            </div>
-            
-            <div class=" col-sm-6 col-md-4 col-lg-3">
-                <h4>Esto Opinan nuestros alumnos</h4>
-                <p>
-                    "Es el mejor instituto en que pude haber cursado y los profesionales que los representan,
-                    lo hacen con gran vocacion." <br>
-                    G.N <br> <br>
-                  
+                      
       <div class="container-fluid  mt-3">
         
                 <div class="aside">
                     <h1>Registrate</h1>
                     <form><!--id="registartionForm"-->
-                        <div id="formu">
-                            <label for="username">Nombre de Usuario: </label>
-                            <input type="text" id="username" required>
+                        <div class="formu">
+                            <label for="usuario">Nombre de Usuario: </label>
+                            <input type="text" name="usuario" id="usuario" value="">
                         </div><br>
-                        <div  id="formu">
+                        <div  class="formu">
                             <label for="confirmPassword">Contraseña: </label>
-                            <input type="password" id="confirmPassword" required>
+                            <input type="text" name="clave" id="clave" value="" >
                         </div><br>
-                        <div  id="formu">
+                        <div  class="formu">
                             <label for="telefono">Telefono: </label>
-                            <input type="telefono">
+                            <input type="text" name="telefono" id="telefono" value="" >
                         </div><br>
-                        <div  id="formu">
+                        <div  class="formu">
                             <label for="email">Email: </label>
-                            <input type="text" id="email" required>
+                            <input type="text" name="email" id="email" value="">
                         </div> <br>
-                        <button id="but" type="submit">Registrarse</button>
+                         <input type="submit" onsubmit="return enviarformulario();" value="Registrarse">
+                        
                         
                     </form>
                     
@@ -136,7 +107,7 @@
        </footer>
         
         <script src="./js/DOM.js"></script>
-        <script src="./js/main.js">        
+        <script src="./js/main.js"></script>       
     </body>
 
 <html>
