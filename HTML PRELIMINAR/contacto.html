@@ -18,35 +18,29 @@
         
         </header>
         <main>  
-            
-        <h1>Contacto</h1>
                       
-      <div class="container-fluid  mt-3">
+      <div class=>
         
                 <div class="aside">
-                    <h1>Registrate</h1>
-                    <form><!--id="registartionForm"-->
-                        <div class="formu">
-                            <label for="usuario">Nombre de Usuario: </label>
-                            <input type="text" name="usuario" id="usuario" value="">
-                        </div><br>
-                        <div  class="formu">
-                            <label for="confirmPassword">Contraseña: </label>
-                            <input type="text" name="clave" id="clave" value="" >
-                        </div><br>
-                        <div  class="formu">
-                            <label for="telefono">Telefono: </label>
-                            <input type="text" name="telefono" id="telefono" value="" >
-                        </div><br>
-                        <div  class="formu">
-                            <label for="email">Email: </label>
-                            <input type="text" name="email" id="email" value="">
-                        </div> <br>
-                         <input type="submit" onsubmit="return enviarformulario();" value="Registrarse">
-                        
-                        
-                    </form>
-                    
+                   
+                <form onsubmit="return validar();">
+                    <div  class="formu">
+                    <label for="email">Email:</label>  
+                    <input type='text' name='email' id='email' value="" />
+                    <div class="alerta" id="validar_email" ></div>
+                    </div>
+                    <div  class="formu">
+                    <label for="clave">Clave:</label>  
+                    <input type='text' name='clave' id='clave' value="" />
+                    <div class="alerta" id="validar_clave"></div>
+                    </div>
+                    <div  class="formu">
+                    <label for="usuario">Usuario:</label>  
+                    <input type='text' name='usuario' id='usuario' value="" />
+                    <div class="alerta" id="validar_usuario" ></div>
+                    </div>  
+                    <input type='submit'  value='Registrarse'></td>
+                </form>   
                 </div>
                 <div class="row">
                     <!--               tablet   monitor  monitor-lg     -->
