@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./imgs/favicon-16x16.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main>  
+
+        <div class="registro">
+        <h1>Registro:</h1>
+        </div>
+
+        <div class="formularioregistroflex">
+    
+        <div class="formularioregistro">
+            <form onsubmit="return validar();">
+               
+                <label class="label" for="email">Email:</label>  <br>
+                <input class="input" type='text' name='email' id='email' value="" />
+                <div class="alerta" id="validar_email" ></div>
+              
+            
+                <label class="label" for="clave">Clave:</label><br>
+                <input class="input" type='text' name='clave' id='clave' value="" />
+                <div class="alerta" id="validar_clave"></div>
+                
+                <label class="label" for="usuario">Usuario:</label><br>
+                <input class="input" type='text' name='usuario' id='usuario' value="" />
+                <div class="alerta" id="validar_usuario" ></div>
+                
+                <input class="boton" type='submit'  value='Registrarse'></td>
+            </div>
+            </form>   
+            </div>
+
+                
+        
+    
+    
+    </main>
+
+    <footer>
+       
+       
+   </footer>
+    
+    <script src="./js/DOM.js"></script>
+    <script src="./js/main.js"></script>    
+</body>
+</html>
