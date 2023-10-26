@@ -707,8 +707,9 @@ div.col {
     background-color: #FFFFFF !important;
     border-bottom: 5px solid #279EFF;
     border-top: 5px solid #279EFF;
-  }.
-  .flex-profesores-home {
+  }
+  
+  .flex-profesores-home{
     background-color: #279EFF;
     text-align: center;
     padding-top: 3%;
