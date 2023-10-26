@@ -1,35 +1,69 @@
+function validar() {
 
-document.getElementById("registartionform").addEventListener("submit", function(event){
-function validateForm(event) {
-    event.preventDefault();     //evita que el formulario se envie automactic.
+    let usuario = document.getElementById("usuario");
+    let clave = document.getElementById("clave");
+    let telefono = document.getElementById("telefono");
+    let email = document.getElementById("email");
+    let error = false;
+
+
+    document.getElementById("validar_usuario").innerHTML = "";
+    document.getElementById("validar_clave").innerHTML = ""; 
+    document.getElementById("validar_telefono").innerHTML = "";
+    document.getElementById("validar_email"). innerHTML = "";
+
+    if (usuario.value === "") {
+            document.getElementById("validar_usuario").innerHTML = "Debe completar el usuario";
+            error = true;
+            usuario.focus();
+            error = true
+        }
+        if (clave.value.length < 8) {
+            document.getElementById("validar_clave").innerHTML = "Debe completar el clave con 8 carateres como minimo";
+            error = true;
+            clave.focus();
+            error = true
+        }
+        if (telefono.value) {
+            document.getElementById("validar_telefono").innerHTML = "Debe completar el campo";
+            error = true;
+            telefono.focus();
+            error = true
+        }
+        if (email.value) {
+            document.getElementById("validar_email").innerHTML = "Debe completar el campo";
+            error = true;
+            email.focus();
+            error = true
+        }
     
-    var username = document.getElementById("username").value;
-    var email = document.getElementById("email").value;
-    var password = document.getElementById("password").value;
-    var confirmPassword = document.getElementById("confirmPassword").value;
-    //validacion basica del formulario
-    if (username.trim() === ""){
-        alert("Por favor, ingresa tu nombre: ");
-        return;
-    } 
-    if (password !== confirmPassword){
-        alert("Las contarseñas no coinciden");
-        return;
-    }
-    if (telefono.trim() === "") {
-        alert("Por favor, ingresa tu nro telefonico: ")
-    }
-    if (email.trim() === "") {
-        alert("Por favor, ingresa tu correo electronico: ");
-        return;
-    }
-        
-     // Enviar el formulario si pasa la validacion
-     sendForm(username, password, telefono, email)
+    
+        if (error === false) {
+            alert("Dato enviado")
+            document.getElementById("usuario").value = ""
+            document.getElementById("validar_usuario").innerHTML = "";
+            document.getElementById("clave").value = ""
+            document.getElementById("validar_clave").innerHTML = "";
+            document.getElementById("telefono").value = ""
+            document.getElementById("validar_telefono").innerHTML = "";
+            document.getElementById("email").value = ""
+            document.getElementById("validar_email").innerHTML = "";
+        }
+
+
+
+
+        if (error)
+            return false;
+        else
+            return true;
 }
+
+
+
 function sendForm(username, email, password, telefono) {
-    console.log("Nombre: ", username);
-    console.log("Password: ", password);
+    console.log("Nombre: ", usuario);
+    console.log("Password: ", clave);
     console.log("telefono: ", telefono);
     console.log("email: ", email);
 
