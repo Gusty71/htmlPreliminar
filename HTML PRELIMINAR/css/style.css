@@ -501,8 +501,9 @@ li {
   color: #0C356A;
   text-decoration: none;
 }
+
 /*ESTILOS REGISTRO HTML*/
-.registro{
+.registro {
   background-color: #279EFF;
   text-align: center;
   padding-top: 4%;
@@ -511,7 +512,8 @@ li {
   font-size: 3rem;
   color: #FFFFFF;
 }
-.formularioregistroflex{
+
+.formularioregistroflex {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -520,7 +522,8 @@ li {
   padding-bottom: 6%;
   padding-top: 6%;
 }
-.formularioregistro{
+
+.formularioregistro {
   background-color: #0C356A;
   font-size: 2rem;
   text-align: center;
@@ -529,7 +532,8 @@ li {
   border-radius: 6px;
   width: 50vw;
 }
-.input{
+
+.input {
   height: 30px;
   border-radius: 6px;
   border: 1px solid #9dbbe2;
@@ -538,17 +542,19 @@ li {
   padding-bottom: 3%;
   padding-top: 3%;
 }
-.input:hover{
+
+.input:hover {
   background-color: #279EFF;
 }
 
-.alerta{
-color: #FFFFFF;
-font-weight: 800;
-font-size: 1.5rem;
-padding-bottom: 2%;
+.alerta {
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 1.5rem;
+  padding-bottom: 2%;
 }
-.boton{
+
+.boton {
   background-color: #279EFF;
   padding: 2%;
   border: 1px solid #FFFFFF;
@@ -557,7 +563,8 @@ padding-bottom: 2%;
   font-size: 2rem;
   color: #FFFFFF;
 }
-.boton:hover{
+
+.boton:hover {
   background-color: #FFFFFF;
   color: #279EFF;
   font-weight: 800;
@@ -611,17 +618,19 @@ footer {
     width: auto;
     padding-bottom: 1%;
   }
+
   .infoapi {
     color: #0C356A;
     padding-top: 1%;
     padding-left: 3%;
     width: 100% !important;
   }
+
   .infoapi p {
     padding-top: 4%;
     padding-left: 2%;
     font-weight: 600;
-    font-size: 1!important;
+    font-size: 1 !important;
   }
 
   header {
@@ -643,12 +652,12 @@ footer {
     padding: 0px 4%;
   }
 
-  .item-iconos-flex{
+  .item-iconos-flex {
     flex-direction: column !important;
     flex-wrap: nowrap !important;
     justify-content: center !important;
     width: 100wv !important;
-    margin: 0px ;
+    margin: 0px;
   }
 
   .flex-iconos-home {
@@ -694,8 +703,8 @@ footer {
     border-bottom: 5px solid #279EFF;
     border-top: 5px solid #279EFF;
   }
-  
-  .flex-profesores-home{
+
+  .flex-profesores-home {
     background-color: #279EFF;
     text-align: center;
     padding-top: 3%;
@@ -1066,4 +1075,3 @@ footer {
     align-content: flex-start !important;
   }
 }
-
